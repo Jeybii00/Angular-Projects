@@ -1,6 +1,11 @@
-.counter-container{
+.counter-container {
+  width: 500px;
   text-align: center;
-  margin-top: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: ghostwhite;
+  border: 1px solid #ddd;
+  border-radius: 20px;
 }
 
 h1{
@@ -12,6 +17,7 @@ button{
   font-size: 1em;
   margin: 10px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 button:hover{
