@@ -6,9 +6,8 @@
   <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
 
   <div *ngIf="jokeSetup && !isLoading && !errorMessage">
-    <p><strong>Setup:</strong>{{ jokeSetup}}</p>
-    <p><strong>Punchline:</strong>{{ jokePunchline}}</p>
-
+    <p class="setUp"><strong>Setup:</strong>{{ jokeSetup}}</p>
+    <p class="punchLine"><strong>Punchline:</strong>{{ jokePunchline}}</p>
   </div>
 
 
